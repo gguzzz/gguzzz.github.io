@@ -40,9 +40,6 @@ img {
 h1 {
     padding-left: 2em;
     color: rgb(255, 215, 0);
-}
-
-h1 {
     font-size: 60px;
 }
 
@@ -72,6 +69,12 @@ h2 {
     .colum.side,
     .colum.middle {
         width: 100%;
+    }
+    img {
+        max-width: 55%;
+        height: auto;
+        padding: 0;
+        margin: 0;
     }
 }
 
